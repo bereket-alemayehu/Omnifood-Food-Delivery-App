@@ -1,0 +1,49 @@
+ grid elements by default stretch to fit the cell 
+ - the main part= of the web page is not repeated and so specific but
+  the header and the footer  can be repeated many times in big
+   website that has  many pages!!!
+   
+   ///////////////////////////////////////////////////////
+    scroll-behavior: doesn't work on safari because safari is the 
+    only browser that  available  on ipad and iphone.
+
+
+
+
+    /////////////////////////////////////////////////////
+
+
+
+    const obs = new IntersectionObserver(function () { }, {
+  //  In Side the Viewport
+
+
+ /////// root: null, 
+// this means the root of the section is inside of the viewport of the
+entire window. in another word the section should be inside of the viewport 
+otherwise we can't see it actually. and  null= viewport which means
+if the viewport does not contain the specified section at that time.
+
+ //////// threshold: 0
+
+ ///mean  when zero percent of the specified section is seen on the viewport which means
+  if it is totally disapperd on the viewport.and when the threshold is 1  the specified 
+  section is seen if it is completely inside of the viewport.
+
+});
+
+
+<meta/>= is the element in html  have the following meaning........
+Meta Data is the data that describes other data and used by the browsers to get the 
+information about the website or the webpage.
+
+
+/////////
+the title for our website should have 
+- hypen ,gap( ), forwared slash(/) , straight bars(|),or also colon(:) rather put it closely.
+
+
+we don't use netlify  for real password and login for website.so netlify use 
+ other means or feature for handle this thing.
+
+
